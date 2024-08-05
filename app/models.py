@@ -1,12 +1,10 @@
 import re
 from pydantic import BaseModel
 from sqlmodel import SQLModel, Field, Column, JSON
-from sqlalchemy import Integer, String
+from sqlalchemy import Integer
 from typing import List, Optional
 from enum import Enum
-from datetime import datetime
 import bcrypt
-import json
 
 class GenderEnum(str, Enum):
     male = "male"

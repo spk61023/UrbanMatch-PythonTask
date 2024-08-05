@@ -1,4 +1,4 @@
-from sqlmodel import create_engine, SQLModel, Session
+from sqlmodel import create_engine, SQLModel
 from sqlalchemy.orm import sessionmaker
 
 DATABASE_URL = "sqlite:///db.sqlite"
